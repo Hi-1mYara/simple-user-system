@@ -1,4 +1,4 @@
-pub use std::io;
+use std::io;
 
 pub fn input_username() -> String {
     println!("Enter your username:");
