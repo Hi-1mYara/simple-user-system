@@ -1,4 +1,4 @@
-<h1 align=center>
+<h1 align="center">
     <br>
     <img alt="ferris-the-rustacean" src="https://github.com/Hi-1mYara/users/blob/master/img/rustacean-orig-noshadow.svg?raw=true" width="256">
     <br>
@@ -6,4 +6,14 @@
     <br>
 </h1>
 
-<h3></h3>
+<h3 align="center">The first of many</h3>
+
+<p align="center">
+    <a href="https://rust-lang.org/">
+    <img alt="[Rust] Blazingly fast!" src="https://img.shields.io/badge/Blazingly_fast!-black?logo=rust&logoColor=white">
+    </a>
+    <a href="https://www.youtube.com/watch?v=XfELJU1mRMg">
+    <img alt="check me out on Youtube" src="https://img.shields.io/badge/Check_me_out_on_Youtube!-red?logo=youtube&logoColor=white">
+    </a>
+</p>
+
