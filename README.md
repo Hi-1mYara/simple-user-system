@@ -1,6 +1,6 @@
 <h1 align=center>
     <br>
-    <img alt="Hmmm, strange... There should be an image here" src="https://github.com/Hi-1mYara/users/blob/master/img/rustacean-orig-noshadow.svg?raw=true">
+    <img alt="ferris-the-rustacean" src="https://github.com/Hi-1mYara/users/blob/master/img/rustacean-orig-noshadow.svg?raw=true" width="256">
     <br>
     Usertest
     <br>
