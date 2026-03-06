@@ -1,4 +1,3 @@
-#[derive(Debug)]
 pub struct User {
     pub active: bool,
     pub username: String,
@@ -8,13 +7,13 @@ pub struct User {
 }
 
 impl User {
-    pub fn new(username: String, uuid: u32, email: String) -> Self {
+    pub fn new(username: String, uuid: u32, email: String, admin: bool) -> Self {
         Self  {
             active: true,
             username,
             email,
             uuid,
-            admin: false,
+            admin,
         }
     }
 }
