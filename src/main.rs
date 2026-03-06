@@ -1,4 +1,4 @@
-use users::{
+use simple_user_system::{
     types::user::User,
     input::mkacc::*
 };

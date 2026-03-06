@@ -1,6 +1,6 @@
 use std::io;
 
-pub fn input_username() -> String {
+pub fn input_username() -> String { // Asks for username
     println!("Enter your username:");
 
     let mut username = String::new();

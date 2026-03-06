@@ -59,7 +59,7 @@ When Rust has been installed, run the following commands:
 # Clone the repository
 # run this command in a directory of your choosing
 git clone https://github.com/Hi-1mYara/users
-cd users/
+cd simple-user-system/
 
 # Build the project
 # the executable will be found in target/release/users
