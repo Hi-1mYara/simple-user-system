@@ -33,13 +33,15 @@
 ## Overview
 The Simple User System is a framework for creating users, which serves as my testing ground for all things Rust (while I'm learning anyway). Do not use this, it is not tested for safety and is missing a lot of features (Though it doesn't do anything useful yet or connect to anything, so the danger should be minimal).
 
+This was made while I was going through chapter 8 of the Rust Book, don't expect much. I plan to update this when my knowledge expands.
+
 ## Features
 - User creation features including:
   - username, email and UUID
   - ability to make a user an admin
   - activity state  
 
-(There really should be more here, huh)
+(There really should be more here, huh. Again, more will be added as I learn)
 
 ## Planned features
 - [ ] User deletion
