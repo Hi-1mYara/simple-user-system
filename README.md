@@ -60,11 +60,11 @@ When Rust has been installed, run the following commands:
 ```bash
 # Clone the repository
 # run this command in a directory of your choosing
-git clone https://github.com/Hi-1mYara/users
+git clone https://github.com/Hi-1mYara/simple-user-system
 cd simple-user-system/
 
 # Build the project
-# the executable will be found in target/release/users
+# the executable will be found in target/release/simple-user-system
 cargo build --release
 ```
 If you wish to execute the program from the command line by its name alone, put it in /bin or /usr/bin
