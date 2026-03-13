@@ -17,7 +17,6 @@
 ///     return user;
 /// }
 /// ```
-
 pub struct User {
     pub active: bool,
     pub username: String,
@@ -26,7 +25,19 @@ pub struct User {
     pub admin: bool,
 }
 
+
 impl User {
+    /// A function to create a new instance of User
+    /// 
+    /// Activity status defaults to "true"
+    /// 
+    /// # Example
+    /// ```no_run
+    /// fn main() -> User {
+    ///     let user = User::new("test", 1000, "test@example.com", false);
+    ///     return user;
+    /// }
+    /// ```
     pub fn new(username: String, uuid: u32, email: String, admin: bool) -> Self {
         Self  {
             active: true,

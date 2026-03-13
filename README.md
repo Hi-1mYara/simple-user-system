@@ -41,7 +41,7 @@ This was made while I was going through chapter 8 of the Rust Book, don't expect
   - ability to make a user an admin
   - activity state  
 
-(There really should be more here, huh. Again, more will be added as I learn)
+(There really should be more here. Again, more will be added as I learn)
 
 ## Planned features
 - [ ] User deletion
@@ -49,6 +49,7 @@ This was made while I was going through chapter 8 of the Rust Book, don't expect
 - [ ] Actual security
 - [ ] A nice looking TUI (maybe)
 - [ ] Integration in another program (whatever that means)
+- [ ] (If adding a TUI) Choice between command line arguments and TUI
 
 ## Installation
 **Don't install this, you have no good reason to.**
@@ -85,7 +86,7 @@ When you see a problem in the code, run into bugs or the README/license is wrong
 
 - Inspiration
   - [DocJade](https://github.com/DocJade)
-    - The madman who made a filesystem ([Fluster](https://github.com/DocJade/fluster_rs)) to run factorio from floppy disks
+    - The madman who made a filesystem ([Fluster](https://github.com/DocJade/fluster_rs)) to run Factorio from floppy disks
     - a nice example of Rust in practice [(do check him out on youtube too)](https://www.youtube.com/@DocJade)
   - [Dysk](https://dystroy.org/dysk/) ([GitHub](https://github.com/Canop/dysk))
     - Inspired me to learn Rust in the first place, i wanted to create projects like it.
