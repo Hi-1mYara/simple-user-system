@@ -1,32 +1,28 @@
 use std::io;
+use crate::types::user::*;
 
-pub fn input_username() -> String { // Asks for username
-    println!("Enter your username:");
-
-    let mut username = String::new();
-
-    io::stdin()
-        .read_line(&mut username)
-        .expect("Failed to read line");
-
-    let username = username.trim_end().to_string();
-
-    return username;
+pub fn add_user(user_count: &mut u32) -> User {
+    *user_count += 1;
+    
+    let user = User::new(input_string("username"), *user_count, input_string("email"), is_admin());
+    
+    return user
 }
 
-pub fn input_email() -> String {      // Asks for email
-    println!("Enter your email:");
+pub fn input_string(input_type: &str) -> String {      // Asks for email
+    println!("Enter your {input_type}:");
         
-    let mut email = String::new();
+    let mut string = String::new();
 
     io::stdin()
-        .read_line(&mut email)
+        .read_line(&mut string)
         .expect("Failed to read line");
 
-    let email = email.trim_end().to_string();
+    let string = string.trim().to_string();
 
-    return email;
+    string
 }
+
 
 pub fn is_admin() -> bool {           // Asks for admin state
     loop {
@@ -48,3 +44,4 @@ pub fn is_admin() -> bool {           // Asks for admin state
         return is_admin;
     }
 }
+

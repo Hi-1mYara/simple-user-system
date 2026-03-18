@@ -1,19 +1,28 @@
 use simple_user_system::{
-    types::user::User,
     input::mkacc::*
 };
 
 fn main() {
-    let user1 = User::new(input_username(), 1000, input_email(), is_admin());
-    println!(
-        " active: {}\n username: {}\n email: {}\n uuid: {}\n admin: {}\n",
-        user1.active,
-        user1.username,
-        user1.email,
-        user1.uuid,
-        user1.admin,
-    );
+    let start_uuid: u32 = 1000;
+    let mut current_uuid = start_uuid;
+    
+    println!("Create a starter user:");
+
+    let first_user = add_user(&mut current_uuid);
+    let mut user_list = vec![first_user];
+    
+    let new_user = add_user(&mut current_uuid);
+
+    user_list.push(new_user);
+
+    for user in user_list {
+        println!(
+            "{:?}",
+            user
+        )
+    }
+
+    let mut total_user_count: u32 = current_uuid - 999;
+    println!("User count: {total_user_count}");
 }
-
-
 

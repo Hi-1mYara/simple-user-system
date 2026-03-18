@@ -17,6 +17,7 @@
 ///     return user;
 /// }
 /// ```
+#[derive(Debug)]
 pub struct User {
     pub active: bool,
     pub username: String,
@@ -24,7 +25,6 @@ pub struct User {
     pub uuid: u32,
     pub admin: bool,
 }
-
 
 impl User {
     /// A function to create a new instance of User
